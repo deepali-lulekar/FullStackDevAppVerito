@@ -24,8 +24,6 @@ This project provisions Azure infrastructure using **Terraform** to deploy a con
 ### 1. **Initialize Terraform**
 terraform init
 
-###2. **Preview the Plan**
 terraform plan
 
-###3. ** Apply the Configuration**
 terraform apply
