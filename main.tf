@@ -15,7 +15,7 @@ resource "azurerm_kubernetes_cluster" "aks" {
   dns_prefix          = random_pet.dns.id
 
   kubernetes_version  = var.kubernetes_version
-  sku_tier            = "Standard"  # Changed from "Free" to "Standard"
+  sku_tier            = "Standard"  
 
   identity {
     type = "SystemAssigned"
